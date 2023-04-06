@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    
+}
+.button {
+display: flex;
+background-color: #EB2127;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 20px;
+padding: 14px 40px;
+border-radius: 12px;
+border: none;
+color: white;
+  }
+  /* I styled the button to look rounded */
+
+  .button {
+    transition-duration: 0.3s;
+  }
+  /* the transition creates a nice gradient transition from red to green */
+  .button:hover {
+    background-color: #8DC440; 
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .button:active {
+    background-color: #00AEEF;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);}
+
+    /* My button is cool because I used my exact colors from AM Design brand */
