@@ -21,7 +21,7 @@ margin: 10px;
 
 }
 /* Button 3 */
-.btn.shadow:hover {
+.btn.shadow:active {
 background-color: #9f161b;
 }
 
@@ -33,6 +33,6 @@ background-color: #9f161b;
     color: black;
     border: skyblue solid 1px;
 }
-.btn.shadow.blue:hover {
+.btn.shadow.blue:active {
     background-color: rgb(98, 150, 171);
 }
