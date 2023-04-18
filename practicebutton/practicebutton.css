@@ -1,0 +1,38 @@
+/* Button 1 */
+.btn{
+display: flex;
+/* background-color: #EB2127; */
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 20px;
+padding: 14px 40px;
+border-radius: 12px;
+border: none;
+color: white;
+margin: 10px;
+}
+.btn.red {
+    background-color: #EB2127;
+}
+/* Button 2 */
+.btn.hollow:hover {
+    background-color: transparent;
+    color: black;
+    border: #EB2127 solid 1px;
+
+}
+/* Button 3 */
+.btn.shadow:hover {
+background-color: #9f161b;
+}
+
+.btn.blue {
+    background-color: lightskyblue;
+}
+.btn.hollow.blue:hover {
+    background-color: transparent;
+    color: black;
+    border: skyblue solid 1px;
+}
+.btn.shadow.blue:hover {
+    background-color: rgb(98, 150, 171);
+}
