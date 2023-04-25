@@ -1,0 +1,24 @@
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hero-image {
+    background-image: url("hero.png");
+    width: 100vw;
+    height: 85vh ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+.hero-text {
+    /* text-align: center; */
+    color: aliceblue;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: 0%;
+    
+}
