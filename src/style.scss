@@ -1,3 +1,5 @@
+//This is our root SCSS file.
+//Underscore partials will be combined with this file hen imported
 @import 'reset';
 @import 'variables';
 @import 'layout';
@@ -5,3 +7,5 @@
 
 @import 'button';
 @import 'hero';
+@import 'footer';
+@import 'navigation';
